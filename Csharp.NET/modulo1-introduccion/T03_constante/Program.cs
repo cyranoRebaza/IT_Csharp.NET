@@ -22,7 +22,7 @@ namespace T03_constante
             double area;
             double radio = 4;
             
-            const double PI = 3.1415926;
+            const double PI = 3.1415926; // se declara e inicializa
             
 
             //calculo el perimetro y el area de la circunferencia
