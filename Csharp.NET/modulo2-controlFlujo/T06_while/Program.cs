@@ -18,6 +18,11 @@ namespace T06_while
                     sentencia;
                 }
 
+            bucle infinito:
+                - cuando no incremento la variable de la condicion 
+                - cuando declaro un variable que tiene un rango limitado
+                - cuando incremento la condicion pero esta fuera  de las llaves
+
              */
             
             
