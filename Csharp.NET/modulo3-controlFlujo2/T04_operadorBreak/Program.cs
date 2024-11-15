@@ -10,7 +10,13 @@ namespace T04_operadorBreak
     {
         static void Main(string[] args)
         {
-            /* Ejemplo: sumar todos los numeros positivos cortar con un numero negativo -1, cortar la ejecucion si la 
+            /* 
+             * Instruccion Break
+             * solo se puede incluir dentro de bloques de instrucciones iterativas o swtich
+             * corta la ejecucion y continua a partir de otra instruccion
+             
+             * ******************************************
+             * Ejemplo: sumar todos los numeros positivos cortar con un numero negativo -1, cortar la ejecucion si la 
              * sumatoria es mayor a 100
              * */
 
@@ -36,6 +42,22 @@ namespace T04_operadorBreak
             while (numero != -1);
 
             Console.WriteLine($"suma es: {suma}");
+
+            Console.WriteLine("**************************");
+
+            // Ejemplo2:
+            for (int i = 2; i <= 30; i+=2)
+            {
+                Console.WriteLine(i);
+
+                if (i == 20)
+                {
+                    Console.WriteLine("LLego a 20 y salio con Break");
+                    break;
+                }
+
+                Console.WriteLine("Aqui salio con el break");
+            }
 
             Console.ReadKey();
         }
