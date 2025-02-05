@@ -54,3 +54,11 @@ namespace LAB01_EJ02
         public string categoria;
     }
 }
+
+/*
+
+1. Crear un arreglo de productos.
+2. Codificar una aplicación de consola que
+permita cargar todos los datos de 3 productos
+en el arreglo y mostrarlos por pantalla.
+ */
