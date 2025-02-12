@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF01_AplicacionControles", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF02_interfazGrafica", "WF02_interfazGrafica\WF02_interfazGrafica.csproj", "{185B9492-0623-4152-BA19-83B86E0EF3A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF03_gestionUsuarios", "WF03_gestionUsuarios\WF03_gestionUsuarios.csproj", "{6A4227ED-7FCA-4FAC-A6B9-6E21A1B05E91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{185B9492-0623-4152-BA19-83B86E0EF3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{185B9492-0623-4152-BA19-83B86E0EF3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{185B9492-0623-4152-BA19-83B86E0EF3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4227ED-7FCA-4FAC-A6B9-6E21A1B05E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4227ED-7FCA-4FAC-A6B9-6E21A1B05E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4227ED-7FCA-4FAC-A6B9-6E21A1B05E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4227ED-7FCA-4FAC-A6B9-6E21A1B05E91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
